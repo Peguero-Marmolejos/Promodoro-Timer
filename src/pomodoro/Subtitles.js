@@ -34,7 +34,7 @@ function Subtitle ({ TimerData, setTimerData, isTimerRunning, hideSubtitle }) {
           </p>
         </div>
       </div>
-      <div style={{ display: isTimerRunning ? "none" : "block" }}>
+      <div>
         <h3>PAUSED</h3>
       </div>
       <div className="row mb-2">
